@@ -20,7 +20,7 @@ Given a directory structure:
                 | people.yml
 
 
-And a YAML file (people.yml)
+And a YAML file (people.yml):
 
         frank: has no properties
         bob:
