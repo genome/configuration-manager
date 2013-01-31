@@ -1,0 +1,9 @@
+frank: has no properties
+bob:
+  profile: bobs profile
+  build: bobs build
+  favorite_sandwich: turkey
+fred:
+  profile: freds profile
+  build: freds build
+  favorite_sandwich: roast beef
