@@ -11,11 +11,11 @@ The root path defaults to a directory called config/ at the root of your project
 ###Usage
 
 ---
-given a directory structure:
+Given a directory structure:
 
         config/
             |
-            | models /
+            | models/
                 |
                 | people.yml
 
