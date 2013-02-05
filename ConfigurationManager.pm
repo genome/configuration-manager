@@ -56,7 +56,7 @@ sub _get_property {
 
 sub _new {
     my $class = shift;
-    my $location = shift || 'config';
+    my $location = shift || $ConfigurationManager::default_basedir;
     my $is_file = shift;
     my $properties = shift;
     bless {
@@ -67,6 +67,13 @@ sub _new {
 }
 
 sub DESTROY { 1; }
+
+$ConfigurationManager::default_basedir = 'config';
+sub import {
+    shift;
+    my $basedir = shift;
+    $ConfigurationManager::default_basedir = $basedir if $basedir;
+}
 
 
 1;
