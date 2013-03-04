@@ -47,4 +47,4 @@ You can do the following:
 ###Tests
 
 ---
-        perl t/ConfigurationManager.t
+        perl -I lib/ t/ConfigurationManager.t
