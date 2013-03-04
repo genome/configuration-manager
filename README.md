@@ -6,7 +6,7 @@
 Given a root directory containing potentially nested configuration files (in yaml format) the ConfigurationManager module will allow for programatic access to the underlying values.
 The package will lazily load values as requested.
 
-The root path defaults to a directory called config/ at the root of your project.
+The root path defaults to a directory called config/ at the root of your project. You can point to a different configuration directory in your use statement.
 
 ###Usage
 
